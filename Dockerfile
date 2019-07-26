@@ -1,6 +1,6 @@
 FROM microsoft/vsts-agent:ubuntu-16.04
 
-ARG TERRAFORM_VERSION=0.11.14
+ARG TERRAFORM_VERSION=0.12.5
 
 RUN apt-get update && \
     apt-get install -y make wget unzip python-pip python3-pip && \
